@@ -21,11 +21,12 @@ const chalk = require('chalk');
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 module.exports = {
       BASE_URL: "https://queen-api-production.up.railway.app", //Queen-AI Base API Url
-      SESSION_ID: process.env.SESSION_ID || "PASTE HERE", //enter your session id here
-      OWNER_NUMBER: process.env.OWNER_NUMBER || "9277XXXXXX", //Owner whatsapp number here
-      OWNER_NAME: process.env.OWNER_NAME || "DarkWinzo", //Queen-AI Owner Name here
+      SESSION_ID: process.env.SESSION_ID || "QUEEN-AI;;;GibsonRocker
+", //enter your session id here
+      OWNER_NUMBER: process.env.OWNER_NUMBER || "94766632281", //Owner whatsapp number here
+      OWNER_NAME: process.env.OWNER_NAME || "𝗠𝗥 𝗜𝗦𝗨𝗥𝗨 𝗖𝗠", //Queen-AI Owner Name here
       PREFIX: ".", //Don't Change This..
-      LANGUAGE: process.env.LANGUAGE || "SI" //Enter bot working language EN = English / SI = Sinhala /ML = Malayalam /HI =Hindi /UR = Urdu /FR = French
+      LANGUAGE: process.env.LANGUAGE || "EN,SI" //Enter bot working language EN = English / SI = Sinhala /ML = Malayalam /HI =Hindi /UR = Urdu /FR = French
 };
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let file = require.resolve(__filename)
